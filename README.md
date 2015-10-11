@@ -1,10 +1,10 @@
 # Genetic
 Genetic algorithms experiments
 
-```js
-// ---------------------------- DNA -------------------------------//
+How the DNA class works:
 
-// How it works:
+```js
+
 (
 var target = [60, 78, 55, 71, 55];
 var size = target.size;
@@ -21,9 +21,9 @@ x.mutate(10);
 ""
 )
 ```
+Evolve a simple MIDI melody:
 
 ```js
-// ---------------------------- Evolve a simple melody -------------------------------//
 
 (
 var target = [60, 65, 68, 71, 67];
@@ -98,10 +98,9 @@ t.pause;
 t.resume; //Wanna keep on going?
 ```
 
-```js
-// ---------------------------- DNAText -------------------------------//
+How DNAText works:
 
-// How DNAText works:
+```js
 (
 var target = "hello";
 var size = target.size;
@@ -116,8 +115,10 @@ x = a.copulate(b);
 ""
 )
 ```
+Evolve a word or phrase:
+
 ```js
-// ---------------------------- Evolve a word or phrase -------------------------------//
+
 (
 var target = "hello";
 var mutationRate = 0.25;
