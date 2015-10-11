@@ -116,7 +116,7 @@ x = a.copulate(b);
 ""
 )
 ```
-
+```js
 // ---------------------------- Evolve a word or phrase -------------------------------//
 (
 var target = "hello";
@@ -162,3 +162,4 @@ t = Task({
 
 t.stop
 t.resume //Wanna keep on going?
+```
