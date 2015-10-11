@@ -1,6 +1,7 @@
 # Genetic
 Genetic algorithms experiments
 
+```js
 // ---------------------------- DNA -------------------------------//
 
 // How it works:
@@ -19,7 +20,9 @@ x.mutate(10);
 "Next breed %".format(x.genes).postln;
 ""
 )
+```
 
+```js
 // ---------------------------- Evolve a simple melody -------------------------------//
 
 (
@@ -93,7 +96,9 @@ t = Task({
 
 t.pause;
 t.resume; //Wanna keep on going?
+```
 
+```js
 // ---------------------------- DNAText -------------------------------//
 
 // How DNAText works:
@@ -110,6 +115,7 @@ x = a.copulate(b);
 "Next breed %".format(x.genes).postln;
 ""
 )
+```
 
 // ---------------------------- Evolve a word or phrase -------------------------------//
 (
